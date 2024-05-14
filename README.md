@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Sihab Uddin
 
-I'm a full stack developer with over 2 years of experience. I specialize in Laravel, PHP, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and Vue.js. Additionally, I have experience with server deployment using AWS EC2 and AWS SES.
+I'm a full stack developer with over 2 years of experience. I specialize in Laravel, PHP, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and Vue.js. Additionally, I have experience with server deployment using AWS EC2 , WHM, cPanel, and server management. I'm also proficient in integrating email services like AWS SES and Mail.
 
 ## 👀 I’m interested in ...
 
