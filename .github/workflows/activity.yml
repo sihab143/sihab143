@@ -19,4 +19,4 @@ jobs:
           username: sihab143
           max_lines: 5
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }} 
