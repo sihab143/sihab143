@@ -13,7 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@v1.1.1
+      - name: GitHub Activity Readme
+        uses: jamesgeorge007/github-activity-readme@v1.1.1
         with:
           username: sihab143
           max_lines: 5
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
