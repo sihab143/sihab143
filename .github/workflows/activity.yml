@@ -1,8 +1,8 @@
-name: Recent Activity
+name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
+    - cron: '0 * * * *'
   push:
     branches:
       - main
@@ -13,30 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
-      - name: Fetch recent activity
-        id: fetch_activity
-        run: |
-          echo "Fetching recent activity..."
-          curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
-            https://api.github.com/users/sihab143/events > events.json
-
-      - name: Generate activity section
-        id: generate_activity
-        run: |
-          echo "Generating activity section..."
-          recent_activity=$(jq -r '.[] | select(.type | contains("PushEvent","PullRequestEvent","IssuesEvent")) | "- \(.type) at [\(.repo.name)](https://github.com/\(.repo.name))" | select(. | length > 0)' events.json | head -n 5)
-          echo "activity_section=$recent_activity" >> $GITHUB_ENV
-
-      - name: Update README
-        run: |
-          echo "Updating README.md..."
-          sed -i "/<!--START_SECTION:activity-->/, /<!--END_SECTION:activity-->/c\<!--START_SECTION:activity-->\n${{ env.activity_section }}\n<!--END_SECTION:activity-->" README.md
-
-      - name: Commit changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add README.md
-          git commit -m "Update recent activity"
-          git push
+      - name: GitHub Readme Stats
+        run: echo "![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true)" > README.md
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
