@@ -35,6 +35,5 @@ Let's build something awesome together!
 
 ## 🔥 Recent GitHub Activity
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [Issue #1234](https://github.com/username/repo/issues/1234) in [username/repo](https://github.com/username/repo)
-2. 💪 Opened PR [#1234](https://github.com/username/repo/pull/1234) in [username/repo](https://github.com/username/repo)
+
 <!--END_SECTION:activity-->
