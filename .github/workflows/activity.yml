@@ -2,7 +2,7 @@ name: Recent Activity
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 0 * * *'  # Runs daily at midnight
   push:
     branches:
       - main
@@ -13,10 +13,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: GitHub Activity Readme
-        uses: jamesgeorge007/github-activity-readme@latest
+
+      - name: Get recent activity
+        id: activity
+        uses: actions/github-script@v6
         with:
-          username: sihab143
-          max_lines: 5
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
+          script: |
+            const { Octokit } = require("@octokit/rest");
+            const octokit = new Octokit({ auth: `${github.token}` });
+            const { data: events } = await octokit.activity.listPublicEventsForUser({
+              username: 'sihab143',
+              per_page: 5,
+            });
+            return events.map(event => `- ${event.type} at [${event.repo.name}](${event.repo.url})`).join("\n");
+
+      - name: Update README
+        run: |
+          sed -i "/<!--START_SECTION:activity-->/, /<!--END_SECTION:activity-->/c\
+          <!--START_SECTION:activity-->\n$(cat $GITHUB_ENV)\n<!--END_SECTION:activity-->" README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m "Update recent activity"
+          git push
