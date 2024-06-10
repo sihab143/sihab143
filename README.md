@@ -3,10 +3,12 @@
 I'm a full stack developer with over 2 years of experience. I specialize in Laravel, PHP, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and Vue.js. Additionally, I have experience with server deployment using AWS EC2, WHM, cPanel, and server management. I'm also proficient in integrating email services like AWS SES and Mail.
 
 ## 📊 GitHub Stats
-![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical)
+![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true&token=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)
+
 
 ## 🏆 GitHub Profile Trophy
-![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=onedark)
+![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=onedark&include_all_commits=true&count_private=true&token=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)
+
 
 ## 📈 GitHub Streak Stats
 ![Sihab's GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=radical)
