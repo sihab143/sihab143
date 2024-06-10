@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: GitHub Activity Readme
-        uses: jamesgeorge007/github-activity-readme@v1.1.1
+        uses: jamesgeorge007/github-activity-readme@latest
         with:
           username: sihab143
           max_lines: 5
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }} 
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
