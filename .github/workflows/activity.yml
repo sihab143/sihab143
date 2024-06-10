@@ -14,24 +14,24 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Get recent activity
-        id: activity
-        uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
-          script: |
-            const { Octokit } = require("@octokit/rest");
-            const octokit = new Octokit({ auth: `${github.token}` });
-            const { data: events } = await octokit.activity.listPublicEventsForUser({
-              username: 'sihab143',
-              per_page: 5,
-            });
-            return events.map(event => `- ${event.type} at [${event.repo.name}](${event.repo.url})`).join("\n");
+      - name: Fetch recent activity
+        id: fetch_activity
+        run: |
+          echo "Fetching recent activity..."
+          curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
+            https://api.github.com/users/sihab143/events > events.json
+
+      - name: Generate activity section
+        id: generate_activity
+        run: |
+          echo "Generating activity section..."
+          recent_activity=$(jq -r '.[] | select(.type | contains("PushEvent","PullRequestEvent","IssuesEvent")) | "- \(.type) at [\(.repo.name)](https://github.com/\(.repo.name))" | select(. | length > 0)' events.json | head -n 5)
+          echo "activity_section=$recent_activity" >> $GITHUB_ENV
 
       - name: Update README
         run: |
-          sed -i "/<!--START_SECTION:activity-->/, /<!--END_SECTION:activity-->/c\
-          <!--START_SECTION:activity-->\n$(cat $GITHUB_ENV)\n<!--END_SECTION:activity-->" README.md
+          echo "Updating README.md..."
+          sed -i "/<!--START_SECTION:activity-->/, /<!--END_SECTION:activity-->/c\<!--START_SECTION:activity-->\n${{ env.activity_section }}\n<!--END_SECTION:activity-->" README.md
 
       - name: Commit changes
         run: |
