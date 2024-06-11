@@ -27,6 +27,25 @@ I'm a full stack developer with over 2 years of experience. I specialize in Lara
 
 ![Your GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=dark)
 
+## GitHub Profile Summary
+
+![GitHub Profile Summary](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true)
+
+## GitHub Activity Graph
+
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=sihab143)
+
+## GitHub Extra Pins
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=sihab143&repo=rr-builders)](https://github.com/sihab143/rr-builders)
+
+## Profile Views
+
+![Profile Views](https://komarev.com/ghpvc/?username=sihab143)
+
+## Follow Me
+
+[![GitHub Follow](https://img.shields.io/github/followers/sihab143.svg?style=social&label=Follow)](https://github.com/sihab143)
 
 
 ## I’m interested in ...
