@@ -7,6 +7,8 @@ I'm a full stack developer with over 2 years of experience. I specialize in Lara
 
 
 
+## 📈 Contribution Graph
+![Sihab's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=sihab143&theme=dracula&count_private=true)
 
 
 ## 🏆 GitHub Profile Trophy
