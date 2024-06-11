@@ -2,14 +2,25 @@
 
 I'm a full stack developer with over 2 years of experience. I specialize in Laravel, PHP, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and Vue.js. Additionally, I have experience with server deployment using AWS EC2, WHM, cPanel, and server management. I'm also proficient in integrating email services like AWS SES and Mail.
 
-## 📊 GitHub Stats
-![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
+# Welcome to My GitHub Profile!
 
-## 📈 Contribution Graph
-![Sihab's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=sihab143&theme=dracula&count_private=true)
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/YOUR_GITHUB_USERNAME)
 
-## 🏆 GitHub Profile Trophy
-![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=onedark&include_all_commits=true&count_private=true)
+## GitHub Stats
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
+
+## Most Used Languages
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
+
+## GitHub Streak
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical)
+
+## GitHub Trophies
+
+![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical)
 
 
 
