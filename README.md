@@ -29,7 +29,12 @@ I'm a full stack developer with over 2 years of experience. I specialize in Lara
 
 ## GitHub Profile Summary
 
-![GitHub Profile Summary](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true)
+![GitHub Profile Summary](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical)
+
+## Profile
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+
 
 ## GitHub Activity Graph
 
