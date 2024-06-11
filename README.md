@@ -20,7 +20,7 @@ I'm a full stack developer with over 2 years of experience. I specialize in Lara
 
 ## GitHub Trophies
 
-![trophy](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical)
+![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=radical)
 
 
 
