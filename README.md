@@ -5,6 +5,16 @@ I'm a full stack developer with over 2 years of experience. I specialize in Lara
 ## 📊 GitHub Stats
 ![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
+## 📈 Contribution Graph
+![Sihab's GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=sihab143&theme=dracula&count_private=true)
+
+## 🏆 GitHub Profile Trophy
+![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=onedark&include_all_commits=true&count_private=true)
+
+
+
+## 📊 GitHub Stats
+![Sihab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
 
 ## 📈 Contribution Graph
