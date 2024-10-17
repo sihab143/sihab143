@@ -1,65 +1,66 @@
 # Welcome to My GitHub Profile!
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/sihab143)
 
- # Hi, I’m Sihab Uddin 👋
+## 👋 Hi, I'm Sihab Uddin
 
-I'm a full stack developer with over 2 years of experience. I specialize in Laravel, PHP, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap, and Vue.js. Additionally, I have experience with server deployment using AWS EC2, WHM, cPanel, and server management. I'm also proficient in integrating email services like AWS SES and Mail.
+I'm a **Full Stack Developer** with over **2 years of experience**, specializing in **Laravel**, **PHP**, **HTML**, **CSS**, **JavaScript**, **Tailwind CSS**, **Bootstrap**, and **Vue.js**. I also have solid experience with **AWS EC2**, **WHM**, **cPanel**, and server management, and I’m proficient in integrating email services like **AWS SES** and **Mail**.
 
-## GitHub Stats
+---
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical)
+### 💼 Tech Stack & Skills
+- **Backend:** Laravel, PHP, MySQL
+- **Frontend:** HTML, CSS, JavaScript, Vue.js, Tailwind CSS, Bootstrap
+- **DevOps & Deployment:** AWS EC2, WHM, cPanel, Git, Docker
+- **Others:** Email Integration (AWS SES), REST APIs
 
-## Most Used Languages
+---
 
+### 📊 GitHub Stats & Highlights
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical)
+
+**Top Languages Used:**
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sihab143&layout=compact&theme=radical)
 
-## GitHub Streak
+---
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=radical)
+### 🛠 Pull Request Activity
+![Pull Request Stats](https://github-readme-stats.vercel.app/api/pulls?username=sihab143&theme=radical)
 
-## GitHub Trophies
+---
 
-![trophy](https://github-profile-trophy.vercel.app/?username=sihab143&theme=radical)
+### 🛠 Contribution Graph
+![Contribution Graph](https://activity-graph.herokuapp.com/graph?username=sihab143&theme=github)
 
-## 📈 Contribution Graph
+---
 
-![Your GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=dark)
+### 🏆 GitHub Trophies
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=sihab143&theme=radical)
 
-## GitHub Profile Summary
+---
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+### 📈 Contribution Overview
+![Contribution Overview](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sihab143&theme=vue)
 
+---
 
-## Profile Views
+### 📬 Get in Touch
+- 📧 Email: sohanur.sr63@gmail.com
+- 💼 [LinkedIn](https://www.linkedin.com/in/sihab-uddin)
+- 🔗 [Follow me on GitHub](https://github.com/sihab143)
 
-![Profile Views](https://komarev.com/ghpvc/?username=sihab143)
+---
 
-## Follow Me
+### 🔥 Recent GitHub Activity
 
-[![GitHub Follow](https://img.shields.io/github/followers/sihab143.svg?style=social&label=Follow)](https://github.com/sihab143)
-
-
-## I’m interested in ...
-- Web development
-- Software architecture
-- Open-source projects
-- Learning new technologies
-
-## I’m currently learning ...
-I'm always eager to expand my skill set and keep up with the latest advancements in web development. Currently, I'm focusing on:
-- Advanced Vue.js techniques
-- Microservices architecture
-- AWS certifications
-
-## I’m looking to collaborate on ...
-I'm open to collaborating on interesting projects related to web development, especially those involving Laravel, Vue.js, or cloud technologies.
-
-## How to reach me ...
-Feel free to reach out to me via email at sohanur.sr63@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/sihab-uddin).
-
-Let's build something awesome together!
-
-## 🔥 Recent GitHub Activity
 <!--START_SECTION:activity-->
-
 <!--END_SECTION:activity-->
+
+---
+
+### 📈 Contribution Breakdown (Languages)
+![Languages Breakdown](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sihab143&theme=vue)
+
+---
+
+Let's build something amazing together!
