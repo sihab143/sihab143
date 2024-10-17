@@ -13,6 +13,16 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 - **DevOps & Deployment:** AWS EC2, WHM, cPanel, Git, Docker
 - **Others:** Email Integration (AWS SES), REST APIs
 
+**Languages I use:**
+- PHP
+- JavaScript
+- HTML
+- CSS
+- Tailwind CSS
+- Vue.js
+- SQL (MySQL)
+- Shell scripting (for deployment)
+
 ---
 
 ### 📊 GitHub Stats & Highlights
@@ -25,12 +35,12 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 ---
 
 ### 🛠 Pull Request Activity
-![Pull Request Stats](https://github-readme-stats.vercel.app/api/pulls?username=sihab143&theme=radical)
+![GitHub Pull Requests](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical&count_private=true&include_all_commits=true)
 
 ---
 
 ### 🛠 Contribution Graph
-![Contribution Graph](https://activity-graph.herokuapp.com/graph?username=sihab143&theme=github)
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=sihab143&theme=github)
 
 ---
 
