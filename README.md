@@ -46,7 +46,7 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 ---
 
 ### 🛠 Contribution Graph
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=sihab143&theme=github)
+![Sihab Uddin's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=sihab143&theme=react)
 
 ---
 
