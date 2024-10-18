@@ -21,7 +21,7 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 - Tailwind CSS
 - Vue.js
 - SQL (MySQL)
-- Shell scripting (for deployment)
+- Shell scripting (for Deployment)
 
 ---
 
