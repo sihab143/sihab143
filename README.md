@@ -70,11 +70,6 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=radical)
 
-
-### GitHub Stats
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=radical)
-
 ---
 
 ### 📈 Contribution Breakdown (Languages)
