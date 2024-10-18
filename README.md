@@ -29,7 +29,7 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sihab143&show_icons=true&theme=radical)
 
-**Top Languages Used:**
+### Top Languages Used:
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sihab143&layout=compact&theme=radical)
 
 ---
@@ -61,11 +61,6 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 
 ---
 
-### 🔥 Recent GitHub Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
 ### 📈 Contribution Overview
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=sihab143&theme=radical)
@@ -78,3 +73,8 @@ I'm a **Full Stack Developer** with over **2 years of experience**, specializing
 ---
 
 Let's build something amazing together!
+
+### 🔥 Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
